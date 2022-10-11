@@ -1,0 +1,70 @@
+---
+title: "Reproducible Research"
+format: revealjs
+editor: visual
+---
+
+## Agenda and Goals
+
+-   Project and data organization principles
+
+-   Writing more reusable code
+
+-   A quick tour of tools
+
+-   Playing with Git
+
+-   Data sharing
+
+## What do we mean by Reproducible Research?
+
+## Who is this for?
+
+# Project Organization and Data Management
+
+## *Good enough practices in scientific computing*
+
+## Checking in on your data stewardship
+
+## Version control with `git`
+
+Motivation for using git
+
+## Git in RStudio
+
+## Interactive exercise with RStudio Cloud
+
+## Working toward a reproducible toolkit
+
+## Examples from our lab
+
+# Data sharing
+
+## FAIR principles and data sharing expectations
+
+## New NIH rules coming Jan 25, 2023
+
+## Publishing reproducible research
+
+## Questions?
+
+email: `allan.just@mssm.edu`
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
