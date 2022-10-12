@@ -20,7 +20,7 @@ format:
 
 -   Playing with Git
 
--   Data sharing
+-   Data sharing and NIH rules (for Jan 2023 forward)
 
     ::: aside
     With lots of examples from our lab
@@ -30,9 +30,75 @@ format:
 
 ## Who is this for?
 
+## Reproducibility as a component of Scientific Rigor {.smaller}
+
+For my NIH proposals, I wrote the following text:
+
+> **Scientific rigor and reproducibility:** We have several protocols in place to ensure rigor and reproducibility. In both exposure modeling and epidemiologic analyses, we use careful data cleaning, sanity checks and quality control. These protocols include (1) automated data quality checking using statistical reporting tools and audits; (2) prespecified analytic plans that are approved by the PI with mandated reporting of null results; (3) use of reproducible analytic tools such as R Markdown and Git repositories for statistical code; (4) required verification of analyses by a second data analyst; and (5) adherence to STROBE guidelines[^1] so that results are more likely interpretable and useful to the scientific and policy communities.
+
+[^1]: [Strengthening Reporting in OBservational Epidemiology](https://www.equator-network.org/reporting-guidelines/strobe/)
+
 # Project Organization and Data Management
 
-## *Good enough practices in scientific computing*
+## Good enough practices - data mgmt
+
+-   Save the raw data.
+-   Record all the steps used to process data.
+-   Anticipate the need to use multiple data sources, and use a unique identifier for every record.
+-   Submit data to a reputable DOI-issuing repository so that others can access and cite it.
+
+::: footer
+Publication: [Wilson et al. 2017. Good enough practices in scientific computing. PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1005510)
+:::
+
+## Good enough practices *-* Software
+
+-   Place a brief explanatory comment at the start of every program.
+-   Decompose programs into functions.
+-   Give functions and variables meaningful names.
+-   Make dependencies and requirements explicit.
+-   Do not comment and uncomment sections of code to control a program's behavior.
+-   Provide a simple example or test data set.
+-   Submit code to a reputable DOI-issuing repository.
+
+::: footer
+Publication: [Wilson et al. 2017. Good enough practices in scientific computing. PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1005510)
+:::
+
+## Good enough practices *-* Collaboration
+
+-   Create an overview of your project.
+-   Create a shared "to-do" list for the project.
+-   Decide on communication strategies.
+-   Make the license explicit.
+-   Make the project citable.
+
+::: footer
+Publication: [Wilson et al. 2017. Good enough practices in scientific computing. PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1005510)
+:::
+
+## Good enough practices *-* Project organization 
+
+-   Put each project in its own directory, which is named after the project.
+-   Put text documents associated with the project in the doc directory.
+-   Put raw data and metadata in a data directory and files generated during cleanup and analysis in a results directory.
+-   Put project source code in a designated directory.
+-   Name all files to reflect their content or function.
+
+::: footer
+Publication: [Wilson et al. 2017. Good enough practices in scientific computing. PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1005510)
+:::
+
+## Good enough practices *-* Tracking changes
+
+-   Back up (almost) everything created by a human being as soon as it is created.
+-   Keep changes small.
+-   Share changes frequently.
+-   Use a version control system.
+
+::: footer
+Publication: [Wilson et al. 2017. Good enough practices in scientific computing. PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1005510)
+:::
 
 ## Checking in on your data stewardship
 
@@ -45,8 +111,6 @@ format:
 ## Openscapes and the "seaside chat"
 
 Talking about data (analysis and stewardship)!
-
-...
 
 ![](images/openscapes_hex_badge.png){fig-alt="hexagonal badge of the abstract Openscapes logo"}
 
@@ -133,10 +197,10 @@ Publication: [Heiss, J., Just, A. 2018. Identifying mislabeled and contaminated 
 
 ## New NIH rules coming Jan 25, 2023
 
-[sharing.nih.gov](https://sharing.nih.gov/) 
+[sharing.nih.gov](https://sharing.nih.gov/)
 
-::: aside 
-That is 104 days from today -- which is soon 
+::: aside
+That is 104 days from today -- which is soon
 :::
 
 ## Publishing reproducible research
