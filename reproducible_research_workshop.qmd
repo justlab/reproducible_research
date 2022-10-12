@@ -36,6 +36,34 @@ format:
 
 ## Checking in on your data stewardship
 
+![](images/horst-seaside-chats.png){fig-alt="cartoon of a group of scientists discussing data with laptop computers and whiteboard"}
+
+::: footer
+[Artwork by Dr. Allison Horst](https://github.com/allisonhorst/stats-illustrations#hello)
+:::
+
+## Openscapes and the "seaside chat"
+
+Talking about data (analysis and stewardship)!
+
+...
+
+![](images/openscapes_hex_badge.png){fig-alt="hexagonal badge of the abstract Openscapes logo"}
+
+## Our group check-in (Spring 2022)
+
+![](images/justlab-openscapes-pathway-2022-screenshot.png){fig-alt="screenshot of a busy spreadsheet with notes on reproducibility"}
+
+## Your group check-in
+
+::: {style="text-align: center; margin-top: 2em"}
+[Openscapes Template](https://docs.google.com/spreadsheets/d/14D5o9IG3UYmV_kxdUa1bqy1EYBF5iuD2i8b4jL3Tu5c/edit?usp=sharing){preview-link="true" style="text-align: center"}
+:::
+
+::: aside
+This version is View-only but you can make a copy in Google Docs!
+:::
+
 # Version control with *`git`*
 
 ## Motivation for using git
@@ -50,7 +78,11 @@ format:
 
 ## Interactive exercise with RStudio Cloud
 
-## Working toward a reproducible toolkit
+## Working toward a reproducible toolkit {background="#43464B" background-image="images/pexels-polina-tankilevitch-3872373.jpg" fig-alt="a salad bowl filled with a nice mix of different foods"}
+
+::: aside
+[Photo by Polina Tankilevitch from Pexels](https://www.pexels.com/photo/photo-of-sliced-vegetables-on-ceramic-plate-3872373/)
+:::
 
 # Examples from our lab
 
@@ -101,7 +133,11 @@ Publication: [Heiss, J., Just, A. 2018. Identifying mislabeled and contaminated 
 
 ## New NIH rules coming Jan 25, 2023
 
-[sharing.nih.gov](https://sharing.nih.gov/)
+[sharing.nih.gov](https://sharing.nih.gov/) 
+
+::: aside 
+That is 104 days from today -- which is soon 
+:::
 
 ## Publishing reproducible research
 
