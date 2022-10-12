@@ -1,7 +1,13 @@
 ---
 title: "Reproducible Research"
-format: revealjs
-editor: visual
+subtitle: "Concepts and Tools"
+format: 
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    editor: visual
 ---
 
 ## Agenda and Goals
@@ -16,6 +22,10 @@ editor: visual
 
 -   Data sharing
 
+    ::: aside
+    With lots of examples from our lab
+    :::
+
 ## What do we mean by Reproducible Research?
 
 ## Who is this for?
@@ -26,7 +36,7 @@ editor: visual
 
 ## Checking in on your data stewardship
 
-## Version control with `git`
+## Version control with *`git`*
 
 Motivation for using git
 
@@ -36,7 +46,21 @@ Motivation for using git
 
 ## Working toward a reproducible toolkit
 
-## Examples from our lab
+# Examples from our lab
+
+## Analysis of public COVID-19 datasets
+
+-   Complex analysis integrating multiple public data sources
+
+-   Sharing the code plus output increases transparency
+
+::: {style="text-align: center; margin-top: 1em"}
+[_Nature Comms_ - Rendered markdown with code and output](https://justlab.github.io/COVID_19_admin_disparities/code/NYC_COVID_Disparities.html){preview-link="true" style="text-align: center"}
+:::
+
+::: footer
+Publication: [Carrión, D., et al. (2021). Neighborhood-level disparities and subway utilization during the COVID-19 pandemic in New York City. _Nature Communications_, 12(1).](https://doi.org/10.1038/s41467-021-24088-7)
+:::
 
 # Data sharing
 
@@ -44,27 +68,14 @@ Motivation for using git
 
 ## New NIH rules coming Jan 25, 2023
 
+[sharing.nih.gov](https://sharing.nih.gov/)
+
 ## Publishing reproducible research
 
 ## Questions?
 
 email: `allan.just@mssm.edu`
 
-## Quarto
+References:
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+-   Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. <https://doi.org/10.1371/journal.pcbi.1005510>
