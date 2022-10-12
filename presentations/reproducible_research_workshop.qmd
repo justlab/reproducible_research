@@ -36,11 +36,17 @@ format:
 
 ## Checking in on your data stewardship
 
-## Version control with *`git`*
+# Version control with *`git`*
 
-Motivation for using git
+## Motivation for using git
+
+::: {style="text-align: center; margin-top: 2em"}
+*"yourself from 3 months ago doesn't answer email"*
+:::
 
 ## Git in RStudio
+
+[Happy Git and and GitHub for the useR](https://happygitwithr.com/)
 
 ## Interactive exercise with RStudio Cloud
 
@@ -55,16 +61,43 @@ Motivation for using git
 -   Sharing the code plus output increases transparency
 
 ::: {style="text-align: center; margin-top: 1em"}
-[_Nature Comms_ - Rendered markdown with code and output](https://justlab.github.io/COVID_19_admin_disparities/code/NYC_COVID_Disparities.html){preview-link="true" style="text-align: center"}
+[*Nature Comms* - Rendered markdown with code and output](https://justlab.github.io/COVID_19_admin_disparities/code/NYC_COVID_Disparities.html){preview-link="true" style="text-align: center"}
 :::
 
 ::: footer
-Publication: [Carrión, D., et al. (2021). Neighborhood-level disparities and subway utilization during the COVID-19 pandemic in New York City. _Nature Communications_, 12(1).](https://doi.org/10.1038/s41467-021-24088-7)
+Publication: [Carrión, D., et al. (2021). Neighborhood-level disparities and subway utilization during the COVID-19 pandemic in New York City. *Nature Communications*, 12(1).](https://doi.org/10.1038/s41467-021-24088-7)
+:::
+
+## Reproducible simulation
+
+::: {style="text-align: center; margin-top: 2em"}
+[Code repository with targets workflow](https://github.com/justlab/casecrossover_preterm_simulation){style="text-align: center"}
+:::
+
+::: footer
+Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Changing Baseline Outcome Risk: A Simulation of Ambient Temperature and Preterm Birth. *Epidemiology*.](https://doi.org/10.1097/EDE.0000000000001477)
+:::
+
+## Analysis of data from NIH repositories
+
+::: {style="text-align: center; margin-top: 2em"}
+[Zenodo repository for code: DOI 10.5281/zenodo.1172730](https://doi.org/10.5281/zenodo.1172730){style="text-align: center"}
+:::
+
+::: footer
+Publication: [Heiss, J., Just, A. 2018. Identifying mislabeled and contaminated DNA methylation microarray data: an extended quality control toolset with examples from GEO. *Clin Epigenet*.](https://doi.org/10.1186/s13148-018-0504-1)
 :::
 
 # Data sharing
 
 ## FAIR principles and data sharing expectations
+
+::: incremental
+-   **F**indability
+-   **A**ccessibility
+-   **I**nteroperability
+-   **R**euse of digital assets
+:::
 
 ## New NIH rules coming Jan 25, 2023
 
