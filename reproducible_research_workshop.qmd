@@ -10,7 +10,13 @@ format:
     editor: visual
 ---
 
-## Agenda and Goals
+## Objective of the workshop
+
+::: {style="text-align: left; margin-top: 2em"}
+### To demonstrate how reproducible research practices make research easier and more transparent
+:::
+
+## Agenda
 
 -   Project and data organization principles
 
@@ -114,6 +120,10 @@ Talking about data (analysis and stewardship)!
 
 ![](images/openscapes_hex_badge.png){fig-alt="hexagonal badge of the abstract Openscapes logo"}
 
+::: footer
+seriously -- check out [Openscapes](https://www.openscapes.org/)
+:::
+
 ## Our group check-in (Spring 2022)
 
 ![](images/justlab-openscapes-pathway-2022-screenshot.png){fig-alt="screenshot of a busy spreadsheet with notes on reproducibility"}
@@ -128,15 +138,110 @@ Talking about data (analysis and stewardship)!
 This version is View-only but you can make a copy in Google Docs!
 :::
 
-# Version control with *`git`*
+# Version control with *`Git`* and *`GitHub`*
 
 ## Motivation for using git
 
-::: {style="text-align: center; margin-top: 2em"}
+::: {style="text-align: center; margin-top: 1em"}
 *"yourself from 3 months ago doesn't answer email"*
 :::
 
-## Git in RStudio
+. . .
+
+![](images/github_friends_crop.png)
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_friends.png)
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_wickham_bryan_git_quote.png)
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_compare_text.png)
+GitHub helps streamline our work
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_groundcrew_text.png)
+
+GitHub helps us support
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_reuse.jpeg)
+
+GitHub helps us reuse
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_clip.png)
+
+GitHub helps us contribute
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_fall.png)
+
+GitHub helps us fail safely
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+---
+
+![](images/github_scoping.jpeg)
+Harness the power of GitHub.
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+
+---
+
+![](images/github_harness.jpeg)
+
+GitHub for the win! 
+
+::: footer
+Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
+:::
+
+
+
+## Learning to use Git
 
 [Happy Git and and GitHub for the useR](https://happygitwithr.com/)
 
@@ -186,7 +291,6 @@ Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Chan
 
 ## Interactive exercise with RStudio Cloud
 
-
 # Data sharing
 
 ## FAIR principles and data sharing expectations
@@ -198,6 +302,8 @@ Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Chan
 -   **R**euse of digital assets
 :::
 
+[go-fair.org](https://www.go-fair.org/fair-principles/)
+
 ## New NIH rules coming Jan 25, 2023
 
 [sharing.nih.gov](https://sharing.nih.gov/)
@@ -206,12 +312,15 @@ Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Chan
 
 **This is a big deal**
 
+[tweet thread by ISMMS professor Florian Krammer](https://twitter.com/florian_krammer/status/1485271552325300230)
+
 ::: aside
 Jan 25th is 104 days from today -- which is soon!
 :::
 
-## A brief _informal_ digest of what is coming  
-:::incremental
+## A brief *informal* digest of what is coming
+
+::: incremental
 -   Who: anyone funded in whole or part by NIH
 
 -   What: data management plan (2 page: [link to draft template](https://grants.nih.gov/sites/default/files/DMS-Plan-blank-format-page.pdf){preview-link="true"}) must cover any data generated by their project (regardless of publication); default is open sharing
@@ -225,10 +334,10 @@ Jan 25th is 104 days from today -- which is soon!
 
 ## Publishing reproducible research
 
-## Questions?
+## Summary
+
+-   Reproducible research in epidemiology / data science **is** complicated
+-   There are many small steps you can take
+-   Our community is moving toward more open science and NIH is making a big push
 
 email: `allan.just@mssm.edu`
-
-References:
-
--   Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. <https://doi.org/10.1371/journal.pcbi.1005510>
