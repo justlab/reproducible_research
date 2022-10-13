@@ -34,7 +34,13 @@ format:
 
 ## What do we mean by Reproducible Research?
 
+- You/someone else can exactly (numerically) regenerate your results on the same dataset
+- Replication is getting similar results/reach same conclusion with another dataset
+
 ## Who is this for?
+
+- **You** _(thanks for joining)_
+- Small teams working on science projects with data
 
 ## Reproducibility as a component of Scientific Rigor {.smaller}
 
@@ -46,7 +52,7 @@ For my NIH proposals, I wrote the following text:
 
 # Project Organization and Data Management
 
-## Good enough practices - data mgmt
+## Good enough practices - Data mgmt
 
 -   Save the raw data.
 -   Record all the steps used to process data.
@@ -126,7 +132,9 @@ seriously -- check out [Openscapes](https://www.openscapes.org/)
 
 ## Our group check-in (Spring 2022)
 
+::: {.column-screen}
 ![](images/justlab-openscapes-pathway-2022-screenshot.png){fig-alt="screenshot of a busy spreadsheet with notes on reproducibility"}
+:::
 
 ## Your group check-in
 
@@ -140,7 +148,7 @@ This version is View-only but you can make a copy in Google Docs!
 
 # Version control with *`Git`* and *`GitHub`*
 
-## Motivation for using git
+## Motivation for using Git and GitHub
 
 ::: {style="text-align: center; margin-top: 1em"}
 *"yourself from 3 months ago doesn't answer email"*
@@ -243,9 +251,13 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 
 ## Learning to use Git
 
-[Happy Git and and GitHub for the useR](https://happygitwithr.com/)
+::: {style="text-align: center; margin-top: 1em"}
+[**Happy Git and and GitHub for the useR**](https://happygitwithr.com/)
+:::
 
-[Software Carpentry Lesson "Version Control with Git"](https://swcarpentry.github.io/git-novice/)
+::: {style="text-align: center; margin-top: 1em"}
+[**Software Carpentry Lesson "Version Control with Git"**](https://swcarpentry.github.io/git-novice/)
+:::
 
 ## Working toward a reproducible toolkit {background="#43464B" background-image="images/pexels-polina-tankilevitch-3872373.jpg" fig-alt="a salad bowl filled with a nice mix of different foods"}
 
@@ -254,6 +266,19 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 :::
 
 # Examples from our lab
+
+## Analysis of data from NIH repositories
+- Reused 80 datasets deposited in NCBI's Gene Expression Omnibus to conduct new science
+- Built a widely used software package ([ewastools](https://hhhh5.github.io/ewastools/))
+- Useful teaching tool
+
+::: {style="text-align: center; margin-top: 2em"}
+[Zenodo repository for code: DOI 10.5281/zenodo.1172730](https://doi.org/10.5281/zenodo.1172730){style="text-align: center"}
+:::
+
+::: footer
+Publication: [Heiss, J., Just, A. 2018. Identifying mislabeled and contaminated DNA methylation microarray data: an extended quality control toolset with examples from GEO. *Clin Epigenet*.](https://doi.org/10.1186/s13148-018-0504-1)
+:::
 
 ## Analysis of public COVID-19 datasets
 
@@ -267,16 +292,6 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 
 ::: footer
 Publication: [Carrión, D., et al. (2021). Neighborhood-level disparities and subway utilization during the COVID-19 pandemic in New York City. *Nature Communications*, 12(1).](https://doi.org/10.1038/s41467-021-24088-7)
-:::
-
-## Analysis of data from NIH repositories
-
-::: {style="text-align: center; margin-top: 2em"}
-[Zenodo repository for code: DOI 10.5281/zenodo.1172730](https://doi.org/10.5281/zenodo.1172730){style="text-align: center"}
-:::
-
-::: footer
-Publication: [Heiss, J., Just, A. 2018. Identifying mislabeled and contaminated DNA methylation microarray data: an extended quality control toolset with examples from GEO. *Clin Epigenet*.](https://doi.org/10.1186/s13148-018-0504-1)
 :::
 
 ## Reproducible epidemiologic simulation
