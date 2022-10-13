@@ -247,7 +247,15 @@ GitHub for the win!
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
+## Summary of advantages of using Git
 
+- Continuously write/revise/delete code over the course of a project
+- Try out things safely - you can always revert
+- Go back in time
+- Reuse code
+- Share and synchronize code, work collaboratively
+- Get feedback
+- Rest easy with code backups
 
 ## Learning to use Git
 
@@ -319,15 +327,32 @@ Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Chan
 
 [go-fair.org](https://www.go-fair.org/fair-principles/)
 
+## Our lab uses **Zenodo**
+Zenodo is a "Generalist Repository"
+
+![](images/zenodo.png)
+
+::: {.incremental}
+- Submissions are assigned Digital Object Identifiers (prevents link rot)
+- Versioned: DOIs for each version and one DOI linking to the most recent version
+- Rich metadata
+- Have it your way (any file format possible)
+- No weird file names forced upon you 
+:::
+
 ## New NIH rules coming Jan 25, 2023
 
 [sharing.nih.gov](https://sharing.nih.gov/)
 
 . . .
 
+::: {style="text-align: left; margin-top: 2em"}
 **This is a big deal**
+:::
 
+::: {style="text-align: left; margin-top: 2em"}
 [tweet thread by ISMMS professor Florian Krammer](https://twitter.com/florian_krammer/status/1485271552325300230)
+:::
 
 ::: aside
 Jan 25th is 104 days from today -- which is soon!
@@ -347,12 +372,11 @@ Jan 25th is 104 days from today -- which is soon!
 -   Why: to improve science!
 :::
 
-## Publishing reproducible research
-
 ## Summary
 
 -   Reproducible research in epidemiology / data science **is** complicated
 -   There are many small steps you can take
+-   You and your collaborators will be the biggest beneficiary
 -   Our community is moving toward more open science and NIH is making a big push
 
 email: `allan.just@mssm.edu`
