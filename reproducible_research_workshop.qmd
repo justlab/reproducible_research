@@ -1,6 +1,8 @@
 ---
 title: "Reproducible Research"
 subtitle: "Concepts and Tools"
+author: "Allan Just"
+date: "2022-10-13"
 format: 
   revealjs: 
     slide-number: true
@@ -12,7 +14,7 @@ format:
 
 ## Objective of the workshop
 
-::: {style="text-align: left; margin-top: 2em"}
+::: {style="text-align: left; margin-top: 1em"}
 ### To demonstrate how reproducible research practices make research easier and more transparent
 :::
 
@@ -117,7 +119,7 @@ Publication: [Wilson et al. 2017. Good enough practices in scientific computing.
 ![](images/horst-seaside-chats.png){fig-alt="cartoon of a group of scientists discussing data with laptop computers and whiteboard"}
 
 ::: footer
-[Artwork by Dr. Allison Horst](https://github.com/allisonhorst/stats-illustrations#hello)
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
 :::
 
 ## Openscapes and the "seaside chat"
@@ -348,14 +350,14 @@ Zenodo is a "Generalist Repository"
 
 . . .
 
-::: {style="text-align: left; margin-top: 2em"}
+::: {style="text-align: left; margin-top: 1em"}
 **This is a big deal**
 :::
 
-::: {style="text-align: left; margin-top: 2em"}
+::: {style="text-align: left; margin-top: 1em"}
 [tweet thread by ISMMS professor Florian Krammer](https://twitter.com/florian_krammer/status/1485271552325300230)
 :::
-
+{{< tweet florian_krammer 1485271552325300230 >}}
 ::: aside
 Jan 25th is 104 days from today -- which is soon!
 :::
