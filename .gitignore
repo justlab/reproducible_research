@@ -4,6 +4,7 @@
 .Ruserdata
 /renv/
 *.html
+*.pdf
 /*_files/
 .DS_Store
 /reproducible_research_workshop_files/
