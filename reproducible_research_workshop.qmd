@@ -357,7 +357,7 @@ Zenodo is a "Generalist Repository"
 ::: {style="text-align: left; margin-top: 1em"}
 [tweet thread by ISMMS professor Florian Krammer](https://twitter.com/florian_krammer/status/1485271552325300230)
 :::
-{{< tweet florian_krammer 1485271552325300230 >}}
+
 ::: aside
 Jan 25th is 104 days from today -- which is soon!
 :::
@@ -385,4 +385,9 @@ Again -- see [sharing.nih.gov](sharing.nih.gov) for details
 
 ::: {style="text-align: left; margin-top: 2em"}
 **email: `allan.just@mssm.edu`**
+:::
+
+
+::: {.footer}
+Slides generated from [github.com/justlab/reproducible_research](https://github.com/justlab/reproducible_research)
 :::
