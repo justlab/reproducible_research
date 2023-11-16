@@ -2,7 +2,7 @@
 title: "Reproducible Research"
 subtitle: "Concepts and Tools"
 author: "Allan Just"
-date: "2022-10-13"
+date: today
 format: 
   revealjs: 
     slide-number: true
@@ -344,7 +344,7 @@ Zenodo is a "Generalist Repository"
 - No weird file names forced upon you 
 :::
 
-## New NIH rules coming Jan 25, 2023
+## New NIH rules as of Jan 25, 2023
 
 [sharing.nih.gov](https://sharing.nih.gov/)
 
@@ -358,11 +358,7 @@ Zenodo is a "Generalist Repository"
 [tweet thread by ISMMS professor Florian Krammer](https://twitter.com/florian_krammer/status/1485271552325300230)
 :::
 
-::: aside
-Jan 25th is 104 days from today -- which is soon!
-:::
-
-## A brief *informal* digest of what is coming
+## A brief *informal* digest of the new NIH rules
 
 ::: {.incremental}
 -   Who: anyone funded in whole or part by NIH
@@ -384,7 +380,7 @@ Again -- see [sharing.nih.gov](sharing.nih.gov) for details
 -   Our community is moving toward more open science and NIH is making a big push
 
 ::: {style="text-align: left; margin-top: 2em"}
-**email: `allan.just@mssm.edu`**
+**email: `allan_just@brown.edu`**
 :::
 
 
