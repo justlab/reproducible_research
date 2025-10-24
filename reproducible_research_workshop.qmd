@@ -28,7 +28,7 @@ format:
 
 -   Playing with Git
 
--   Data sharing and NIH rules (for Jan 2023 forward)
+-   Data sharing and NIH rules
 
     ::: aside
     With lots of examples from our lab
@@ -36,13 +36,13 @@ format:
 
 ## What do we mean by Reproducible Research?
 
-- **Reproducibility:** You/someone else can exactly (numerically) regenerate your results on the same dataset
-- **Replicability:** getting similar results and reaching same conclusion with another dataset
+-   **Reproducibility:** You/someone else can exactly (numerically) regenerate your results on the same dataset
+-   **Replicability:** getting similar results and reaching same conclusion with another dataset
 
 ## Who is this for?
 
-- **You** _(thanks for joining)_
-- Small teams working on science projects with data
+-   **You** *(thanks for joining)*
+-   Small teams working on science projects with data
 
 ## Reproducibility as a component of Scientific Rigor {.smaller}
 
@@ -119,7 +119,7 @@ Publication: [Wilson et al. 2017. Good enough practices in scientific computing.
 ![](images/horst-seaside-chats.png){fig-alt="cartoon of a group of scientists discussing data with laptop computers and whiteboard"}
 
 ::: footer
-[Artwork by @allison_horst](https://twitter.com/allison_horst)
+[Artwork by \@allison_horst](https://twitter.com/allison_horst)
 :::
 
 ## Openscapes and the "seaside chat"
@@ -132,9 +132,9 @@ Talking about data (analysis and stewardship)!
 seriously -- check out [Openscapes](https://www.openscapes.org/)
 :::
 
-## Our group check-in (Spring 2022)
+## Our group check-in (older example)
 
-::: {.column-screen}
+::: column-screen
 ![](images/justlab-openscapes-pathway-2022-screenshot.png){fig-alt="screenshot of a busy spreadsheet with notes on reproducibility"}
 :::
 
@@ -164,7 +164,7 @@ This version is View-only but you can make a copy in Google Docs!
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
 ![](images/github_friends.png)
 
@@ -172,7 +172,7 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
 ![](images/github_wickham_bryan_git_quote.png)
 
@@ -180,16 +180,15 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
-![](images/github_compare_text.png)
-GitHub helps streamline our work
+![](images/github_compare_text.png) GitHub helps streamline our work
 
 ::: footer
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
 ![](images/github_groundcrew_text.png)
 
@@ -199,7 +198,7 @@ GitHub helps us support
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
 ![](images/github_reuse.jpeg)
 
@@ -209,7 +208,7 @@ GitHub helps us reuse
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
 ![](images/github_clip.png)
 
@@ -219,7 +218,7 @@ GitHub helps us contribute
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
 ![](images/github_fall.png)
 
@@ -229,21 +228,19 @@ GitHub helps us fail safely
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
----
+------------------------------------------------------------------------
 
-![](images/github_scoping.jpeg)
-Harness the power of GitHub.
+![](images/github_scoping.jpeg) Harness the power of GitHub.
 
 ::: footer
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
 :::
 
-
----
+------------------------------------------------------------------------
 
 ![](images/github_harness.jpeg)
 
-GitHub for the win! 
+GitHub for the win!
 
 ::: footer
 Illustrations from the Openscapes blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes
@@ -251,13 +248,13 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 
 ## Summary of advantages of using Git
 
-- Continuously write/revise/delete code over the course of a project
-- Try out things safely - you can always revert
-- Go back in time
-- Reuse code
-- Share and synchronize code, work collaboratively
-- Get feedback
-- Rest easy with code backups
+-   Continuously write/revise/delete code over the course of a project
+-   Try out things safely - you can always revert
+-   Go back in time
+-   Reuse code
+-   Share and synchronize code, work collaboratively
+-   Get feedback
+-   Rest easy with code backups
 
 ## Learning to use Git
 
@@ -269,7 +266,7 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 [**Software Carpentry Lesson "Version Control with Git"**](https://swcarpentry.github.io/git-novice/)
 :::
 
-## Working toward a reproducible toolkit 
+## Working toward a reproducible toolkit
 
 ![](images/pexels-polina-tankilevitch-3872373.jpg){{fig-align="center"; fig-alt="a salad bowl filled with a nice mix of different foods"}
 
@@ -280,9 +277,10 @@ Illustrations from the Openscapes blog [GitHub for supporting, contributing, and
 # Examples from our lab
 
 ## Analysis of data from NIH repositories
-- Reused 80 datasets deposited in NCBI's Gene Expression Omnibus to conduct new science
-- Built a widely used software package ([ewastools](https://hhhh5.github.io/ewastools/))
-- Useful teaching tool
+
+-   Reused 80 datasets deposited in NCBI's Gene Expression Omnibus to conduct new science
+-   Built a widely used software package ([ewastools](https://hhhh5.github.io/ewastools/))
+-   Useful teaching tool
 
 ::: {style="text-align: center; margin-top: 2em"}
 [Zenodo repository for code: DOI 10.5281/zenodo.1172730](https://doi.org/10.5281/zenodo.1172730){style="text-align: center"}
@@ -316,8 +314,6 @@ Publication: [Carrión, D., et al. (2021). Neighborhood-level disparities and su
 Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Changing Baseline Outcome Risk: A Simulation of Ambient Temperature and Preterm Birth. *Epidemiology*.](https://doi.org/10.1097/EDE.0000000000001477)
 :::
 
-## Interactive exercise with RStudio Cloud
-
 # Data sharing
 
 ## FAIR principles and data sharing expectations
@@ -332,37 +328,34 @@ Publication: [Carrión, D., et al. (2022). The Case--Crossover Design Under Chan
 [go-fair.org](https://www.go-fair.org/fair-principles/)
 
 ## Our lab uses **Zenodo**
+
 Zenodo is a "Generalist Repository"
 
 ![](images/zenodo.png)
 
-::: {.incremental}
-- Submissions are assigned Digital Object Identifiers (prevents link rot)
-- Versioned: DOIs for each version and one DOI linking to the most recent version
-- Rich metadata
-- Have it your way (any file format possible)
-- No weird file names forced upon you 
+::: incremental
+-   Submissions are assigned Digital Object Identifiers (prevents link rot)
+-   Versioned: DOIs for each version and one DOI linking to the most recent version
+-   Rich metadata
+-   Have it your way (any file format possible)
+-   No weird file names forced upon you
 :::
 
-## New NIH rules as of Jan 25, 2023
+## NIH rules as of Jan 25, 2023
 
 [sharing.nih.gov](https://sharing.nih.gov/)
 
 . . .
 
 ::: {style="text-align: left; margin-top: 1em"}
-**This is a big deal**
-:::
-
-::: {style="text-align: left; margin-top: 1em"}
-[tweet thread by ISMMS professor Florian Krammer](https://twitter.com/florian_krammer/status/1485271552325300230)
+**This is a big deal - and a requirement of NIH awards**
 :::
 
 ## A brief *informal* digest of the new NIH rules
 
-::: {.incremental}
+::: incremental
 -   Who: anyone funded in whole or part by NIH
--   What: data management plan (2 page: [link to draft template](https://grants.nih.gov/sites/default/files/DMS-Plan-blank-format-page.pdf){preview-link="true"}) must cover any data generated by their project (regardless of publication); default is open sharing
+-   What: data management plan (2 page: [link to template](https://grants.nih.gov/sites/default/files/DMS-Plan-blank-format-page.pdf){preview-link="true"}) must cover any data generated by their project (regardless of publication); default is open sharing
 -   When: applications after Jan 25 2023 (not retroactive); data must be shared by earlier of publication or end of award
 -   Where: into appropriate scientific repositories
 -   Why: to improve science!
@@ -383,7 +376,6 @@ Again -- see [sharing.nih.gov](sharing.nih.gov) for details
 **email: `allan_just@brown.edu`**
 :::
 
-
-::: {.footer}
+::: footer
 Slides generated from [github.com/justlab/reproducible_research](https://github.com/justlab/reproducible_research)
 :::
